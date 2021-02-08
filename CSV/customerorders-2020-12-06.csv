@@ -1,0 +1,29 @@
+OrderId,storeId,userName,orderName,orderPrice,quantity,street,city,state,zipcode,creditCardNo,orderDate,deliveryDate,status,deliverables,pickupaddress
+1,1,John,"Great Value Black Eyed Peas, 16 oz",1.48,2,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/28/2020,12/03/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+2,1,Daniel,"Marketside Organic Cage Free Brown Eggs, 12 Count",3.48,3,Brown St,Chicago,IL,60617,7856-1943-6843-1673,11/29/2020,12/04/2020,Order placed,pickup,"Park To Shop Supermarket,2425 S Wallace St, Chicago, IL 60616"
+7,1,Mark,"Hersheys Chocolate Pudding Cups, 4 ct - 15.5 oz",2.48,9,Hamburg St,Chicago,IL,60615,6489-1425-4523-1843,11/30/2020,12/05/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+8,1,Matthew,"Great Value Distilled White Vinegar, 1 gal",2.64,3,cornell st,Chicago,IL,60618,5443-3495-1843-1843,11/30/2020,12/05/2020,Order placed,pickup,"Marianos,1615 S Clark St, Chicago, IL 60616"
+13,1,John,"Great Value Black Eyed Peas, 16 oz",1.48,2,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/29/2020,12/04/2020,Order placed,delivery,
+17,1,John,"Sprite Lemon Lime Soda Soft Drinks, 12 fl oz, 24 Pack",7.48,4,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/28/2020,12/03/2020,Order placed,pickup,"Petes Fresh Market,2333 W Madison St, Chicago, IL 60612"
+25,1,Antony,"Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack",3.48,2,Brown St,Chicago,IL,60617,4894-8463-1843-1464,11/29/2020,12/04/2020,Order placed,pickup,"Walmart Neighborhood Market,4720 S Cottage Grove Ave, Chicago, IL 60615"
+27,1,Mary,"Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack",3.48,4,Maxwell st,Chicago,IL,60615,5566-4992-5956-9634,11/30/2020,12/05/2020,Order placed,delivery,
+30,1,John,(18 Count) Gatorade Thirst Quencher Sports Drink,8.96,2,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/29/2020,12/04/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+31,1,Lisa,"Marketside Organic Cage Free Brown Eggs, 12 Count",3.48,2,"24, Denoven st",Chicago,IL,60617,5543-5862-3446-3466,11/28/2020,12/03/2020,Order placed,delivery,
+40,1,Daniel,"Great Value Frozen Chicken Wings with Garlic Butter Dry Rub, 22 oz",7.37,2,Brown St,Chicago,IL,60617,7856-1943-6843-1673,11/30/2020,12/05/2020,Order placed,delivery,
+42,1,John,Onion-red,0.71,2,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/28/2020,12/03/2020,Order placed,delivery,
+45,1,Lisa,Mama Marys Original Pizza Crusts 2 ct Pack,3.48,2,"24, Denoven st",Chicago,IL,60617,5543-5862-3446-3466,11/28/2020,12/03/2020,Order placed,pickup,"Trader Joes,667 W Diversey Pkwy, Chicago, IL 60614"
+45,1,Mary,NESCAFE CLASICO Dark Roast Instant Coffee,4.98,4,Maxwell st,Chicago,IL,60615,4894-1589-1456-2535,11/30/2020,12/05/2020,Order placed,pickup,"Walmart Neighborhood Market,4720 S Cottage Grove Ave, Chicago, IL 60615"
+50,1,Matthew,"Marketside Sliced Brioche, 17.6 oz",3.54,5,cornell st,Chicago,IL,60618,5443-3495-1843-1843,11/30/2020,12/05/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+61,1,Mark,Lemons,1.13,7,Hamburg St,Chicago,IL,60615,6489-1425-4523-1843,11/30/2020,12/05/2020,Order placed,delivery,
+64,1,John,"Coca-Cola Soda Soft Drink, 12 fl oz, 24 Pack",7.48,2,"49, Oxford st",Chicago,IL,60616,2455-5754-7585-8000,11/29/2020,12/04/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+67,1,Mary,"Great Value 1% Chocolate Milk, Half Gallon",1.48,6,Maxwell st,Chicago,IL,60615,5566-4992-5956-9634,11/30/2020,12/05/2020,Order placed,pickup,"Whole Foods Market,1 N Halsted St, Chicago, IL 60661"
+81,1,Matthew,"De Wafelbakkers Frozen Buttermilk Pancakes, 24 ct",3.68,2,cornell st,Chicago,IL,60618,5443-3495-1843-1843,11/30/2020,12/05/2020,Order placed,delivery,
+81,1,Sandra,RedRaddish,2.39,6,Dodge St,Chicago,IL,60620,4598-1434-8531-1642,11/30/2020,12/05/2020,Order placed,pickup,"Trader Joes,667 W Diversey Pkwy, Chicago, IL 60614"
+84,1,Betty,Snack Pack Chocolate and Vanilla Pudding,2.42,2,Oxford St,Chicago,IL,60620,6983-8461-6483-1843,11/29/2020,12/04/2020,Order placed,delivery,
+84,1,Mark,"Pillsbury Ready To Bake Chocolate Chip Cookies, 24 Ct",2.5,4,Hamburg St,Chicago,IL,60615,6489-1425-4523-1843,11/30/2020,12/05/2020,Order placed,delivery,
+84,1,Sandra,Pineapple,3.19,3,Dodge St,Chicago,IL,60620,4598-1434-8531-1642,11/30/2020,12/05/2020,Order placed,pickup,"Fresh Market Place,2134 N Western Ave, Chicago, IL 60647"
+85,1,Lisa,Celery,0.73,2,"24, Denoven st",Chicago,IL,60617,5543-5862-3446-3466,11/28/2020,12/03/2020,Order placed,pickup,"Food 4 Less,112 W 87th St, Chicago, IL 60620"
+90,1,Betty,Cabbage,1.18,4,Oxford St,Chicago,IL,60620,6983-8461-6483-1843,11/29/2020,12/04/2020,Order placed,pickup,"Patel Brothers,2610 W Devon Ave, Chicago, IL 60659"
+91,1,Antony,Lemons,1.13,2,Brown St,Chicago,IL,60617,4894-8463-1843-1464,11/29/2020,12/04/2020,Order placed,pickup,"Petes Fresh Market,2333 W Madison St, Chicago, IL 60612"
+95,1,Daniel,"Simply Orange Pulp Free Orange Juice, 52 fl oz",3.58,2,Brown St,Chicago,IL,60617,7856-1943-6843-1673,11/30/2020,12/05/2020,Order placed,pickup,"Fresh Thyme Farmers Market,2500 N Elston Ave, Chicago, IL 60647"
+95,1,Sandra,"Yogi Green Tea Kombucha Tea Bags, 16 count",3.84,4,Dodge St,Chicago,IL,60620,4598-1434-8531-1642,11/30/2020,12/05/2020,Order placed,delivery,

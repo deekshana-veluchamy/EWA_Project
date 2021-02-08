@@ -1,0 +1,29 @@
+loginID,Customer_Name,Customer_Age,Customer_Occupation,Credit_Card_Number,Order_ID,Order_Date,Expected_Delivery,Actual_Delivery,Product_ID,Product_Name,Category,Manufacturer,Review_Rating,Delivery_Tracking_ID,Delivery_Type,Delivery_Zip_Code,Transaction_Status,Order_Returned,Order_Delivered
+Antony,a,41,Teacher,a,25,11/29/2020,12/04/2020,12/04/2020,crescent rolls,"Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack",tvs,Doughs,3,9321,pickup,a,Approved,No,Yes
+Antony,Antony,41,Teacher,4894-8463-1843-1464,91,11/29/2020,12/04/2020,12/04/2020,grapefruit,Lemons,tvs,Citrus,2,1404,pickup,60617,Approved,No,Yes
+Betty,Betty,28,Software Engineer,6983-8461-6483-1843,84,11/29/2020,12/04/2020,12/04/2020,vanilla pudding,Snack Pack Chocolate and Vanilla Pudding,tvs,Desserts,4,1458,delivery,60620,Approved,No,Yes
+Betty,Betty,28,Software Engineer,6983-8461-6483-1843,90,11/29/2020,12/04/2020,12/04/2020,cabbage,Cabbage,tvs,Cauliflower,3,1965,pickup,60620,Disputed,No,Yes
+Daniel,Daniel,42,Manager,7856-1943-6843-1673,2,11/29/2020,12/04/2020,12/04/2020,brown eggs,"Marketside Organic Cage Free Brown Eggs, 12 Count",tvs,Eggs,2,5917,pickup,60617,Approved,No,Yes
+Daniel,Daniel,42,Manager,7856-1943-6843-1673,40,11/30/2020,12/05/2020,12/05/2020,frozen chicken wings,"Great Value Frozen Chicken Wings with Garlic Butter Dry Rub, 22 oz",tvs,FrozenSnacks,3,9014,delivery,60617,Disputed,No,Yes
+Daniel,Daniel,42,Manager,7856-1943-6843-1673,95,11/30/2020,12/05/2020,12/05/2020,orange juice,"Simply Orange Pulp Free Orange Juice, 52 fl oz",tvs,FruitsJuices,2,6907,pickup,60617,Approved,No,Yes
+John,John,24,Sales,2455-5754-7585-8000,1,11/28/2020,12/03/2020,12/03/2020,blackbeans,"Great Value Black Eyed Peas, 16 oz",tvs,DriedBeans,2,6603,pickup,60616,Disputed,No,Yes
+John,John,24,Sales,2455-5754-7585-8000,13,11/29/2020,12/04/2020,12/04/2020,blackbeans,"Great Value Black Eyed Peas, 16 oz",tvs,DriedBeans,2,8818,delivery,60616,Approved,No,Yes
+John,John,24,Sales,2455-5754-7585-8000,17,11/28/2020,12/03/2020,12/03/2020,sprite,"Sprite Lemon Lime Soda Soft Drinks, 12 fl oz, 24 Pack",tvs,SoftDrinks,5,6356,pickup,60616,Approved,No,Yes
+John,John,24,Sales,34567,30,11/29/2020,12/04/2020,12/04/2020,sports drink,(18 Count) Gatorade Thirst Quencher Sports Drink,tvs,EnergyDrinks,1,9750,pickup,60616,Approved,No,Yes
+John,John,24,Sales,2455-5754-7585-8000,42,11/28/2020,12/03/2020,12/03/2020,onion,Onion-red,tvs,Shallots,2,7276,delivery,60616,Approved,No,Yes
+John,John,24,Sales,567890,64,11/29/2020,12/04/2020,12/04/2020,Coca-Cola,"Coca-Cola Soda Soft Drink, 12 fl oz, 24 Pack",tvs,SoftDrinks,2,8544,pickup,60616,Disputed,No,Yes
+Lisa,Lisa,55,Principal,5543-5862-3446-3466,31,11/28/2020,12/03/2020,12/03/2020,brown eggs,"Marketside Organic Cage Free Brown Eggs, 12 Count",tvs,Eggs,1,9575,delivery,60617,Disputed,No,Yes
+Lisa,Lisa,55,Principal,5543-5862-3446-3466,45,11/28/2020,12/03/2020,12/03/2020,pizza,Mama Mary's™ Original Pizza Crusts 2 ct Pack,tvs,Pizzas,3,9279,pickup,60617,Disputed,No,Yes
+Lisa,Lisa,55,Principal,5543-5862-3446-3466,85,11/28/2020,12/03/2020,12/03/2020,celery,Celery,tvs,LeafyGreens,5,1349,pickup,60617,Disputed,No,Yes
+Mark,Paul,28,Teacher,6489-1425-4523-1843,7,11/30/2020,12/05/2020,12/05/2020,chocolate pudding,"Hersheys Chocolate Pudding Cups, 4 ct - 15.5 oz",tvs,Desserts,2,1934,pickup,60615,Disputed,No,Yes
+Mark,Paul,28,Teacher,6489-1425-4523-1843,61,11/30/2020,12/05/2020,12/05/2020,grapefruit,Lemons,tvs,Citrus,1,4483,delivery,60615,Approved,No,Yes
+Mark,Paul,28,Teacher,6489-1425-4523-1843,84,11/30/2020,12/05/2020,12/05/2020,chocolate cookies,"Pillsbury Ready To Bake Chocolate Chip Cookies, 24 Ct",tvs,Doughs,3,5743,delivery,60615,Approved,No,Yes
+Mary,Mary,28,Accountant,5566-4992-5956-9634,27,11/30/2020,12/05/2020,12/05/2020,crescent rolls,"Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack",tvs,Doughs,2,7685,delivery,60615,Disputed,No,Yes
+Mary,Mary,28,Accountant,4894-1589-1456-2535,45,11/30/2020,12/05/2020,12/05/2020,coffee,NESCAFE CLASICO Dark Roast Instant Coffee,tvs,Coffee,2,7693,pickup,60615,Disputed,No,Yes
+Mary,Mary,28,Accountant,5566-4992-5956-9634,67,11/30/2020,12/05/2020,12/05/2020,chocolate milk,"Great Value 1% Chocolate Milk, Half Gallon",tvs,Yogurts,2,997,pickup,60615,Disputed,No,Yes
+Matthew,Matthew,33,Accountant,5443-3495-1843-1843,8,11/30/2020,12/05/2020,12/05/2020,vinegar,"Great Value Distilled White Vinegar, 1 gal",tvs,Vinegar,2,2747,pickup,60618,Approved,No,Yes
+Matthew,Matthew,33,Accountant,5443-3495-1843-1843,50,11/30/2020,12/05/2020,12/05/2020,bread,"Marketside Sliced Brioche, 17.6 oz",tvs,Buns,2,1165,pickup,60618,Approved,No,Yes
+Matthew,Matthew,33,Accountant,5443-3495-1843-1843,81,11/30/2020,12/05/2020,12/05/2020,pancakes,"De Wafelbakkers Frozen Buttermilk Pancakes, 24 ct",tvs,FrozenBreakfast,2,3221,delivery,60618,Approved,No,Yes
+Sandra,Sandra,25,Software Engineer,4598-1434-8531-1642,81,11/30/2020,12/05/2020,12/05/2020,redraddish,RedRaddish,tvs,RootVegetables,2,4689,pickup,60620,Disputed,No,Yes
+Sandra,Sandra,25,Software Engineer,4598-1434-8531-1642,84,11/30/2020,12/05/2020,12/05/2020,papaya,Pineapple,tvs,TropicalFruits,2,1593,pickup,60620,Approved,No,Yes
+Sandra,Sandra,25,Software Engineer,4598-1434-8531-1642,95,11/30/2020,12/05/2020,12/05/2020,green tea,"Yogi Green Tea Kombucha Tea Bags, 16 count",tvs,Coffee,1,7983,delivery,60620,Approved,No,Yes

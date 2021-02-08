@@ -1,0 +1,32 @@
+productonsale,productType,reviewDate,productName,price,title,retailername,retailerpin,retailercity,productMaker,reviewRating,_id,useroccupation,reviewText,usergender,manufacturerrebate,userName,retailerstate,userage
+Yes,grocerys,2020-12-01,pizza,3.48,myReviews,GroceryHub,60617,Chicago,Pizzas,4,5fcccf464403e64b548d8c2f,Sales, Good,Male,Yes,John,IL,24
+Yes,grocerys,2020-12-25,vinegar,2.64,myReviews,GroceryHub,60617,Chicago,Vinegar,4,5fcccff84403e64b548d8c38,Sales, Good,Male,Yes,John,IL,24
+Yes,dairies,,egg whites,4.42,myReviews,GroceryHub,60618,Chicago,Eggs,5,5fccd01f4403e64b548d8c3b,Sales, Good one,Male,Yes,John,IL,24
+Yes,dairies,2020-12-02,chocolate cookies,2.5,myReviews,GroceryHub,60619,Chicago,Doughs,2,5fccd10c4403e64b548d8c3e,Principal, Good product,Female,Yes,Lisa,IL,Lisa
+Yes,grocerys,2020-10-28,vegetable oil,4.48,myReviews,GroceryHub,60618,Chicago,Vinegar,4,5fccd15f4403e64b548d8c41,Principal, Nice,Female,Yes,Lisa,IL,55
+Yes,grocerys,2020-12-05,oats,4.88,myReviews,GroceryHub,60615,Chicago,BreakfastFoods,4,5fccd6df4403e64b548d8c4b,Principal, good,Female,Yes,Lisa,IL,55
+Yes,grocerys,2020-12-02,vegetable oil,4.48,myReviews,GroceryHub,60615,Chicago,Vinegar,3,5fccd8734403e64b548d8c4f,Manager, Good,Male,Yes,Daniel,IL,42
+Yes,dairies,2020-12-04,chocolate cookies,2.5,myReviews,GroceryHub,60618,Chicago,Doughs,4,5fccd9284403e64b548d8c52,Manager, Good,Male,Yes,Daniel,IL,42
+Yes,dairies,2020-12-03,vanilla pudding,2.42,myReviews,GroceryHub,60618,Chicago,Desserts,5,5fccda704403e64b548d8c55,Manager, Good,Male,Yes,Daniel,IL,42
+Yes,beverage,2020-12-03,red bull,18.73,myReviews,GroceryHub,60618,Chicago,EnergyDrinks,4,5fccdb614403e64b548d8c58,Accountant, Nice,Male,Yes,Matthew,IL,33
+Yes,beverage,2020-12-03,sports drink,8.96,myReviews,GroceryHub,60619,Chicago,EnergyDrinks,3,5fccdb9e4403e64b548d8c5e,Accountant, Nice one,Male,Yes,Matthew,IL,33
+Yes,grocerys,2020-12-10,olive oil,4.12,myReviews,GroceryHub,60618,Chicago,Vinegar,4,5fccdbea4403e64b548d8c62,Accountant, Great,Male,Yes,Matthew,IL,33
+Yes,grocerys,2020-12-11,blackbeans,1.48,myReviews,GroceryHub,60620,Chicago,DriedBeans,3,5fccdc584403e64b548d8c66,Accountant, Nice,Male,Yes,Matthew,IL,33
+Yes,grocerys,2020-12-02,pepper,2.68,myReviews,GroceryHub,60615,Chicago,Spices,2,5fccdc804403e64b548d8c69,Accountant, Great one,Male,Yes,Matthew,IL,33
+Yes,grocerys,2020-12-03,oats,4.88,myReviews,GroceryHub,60615,Chicago,BreakfastFoods,2,5fcce1ee4403e64b548d8c6c,Teacher, Great,Male,Yes,Antony,IL,41
+Yes,grocerys,2020-12-01,rice,4.54,myReviews,GroceryHub,60619,Chicago,DriedBeans,4,5fcce2134403e64b548d8c6f,Teacher, nice,Male,Yes,Antony,IL,41
+Yes,grocerys,2020-12-01,pizza,3.48,myReviews,GroceryHub,60618,Chicago,Pizzas,1,5fcce2404403e64b548d8c73,Teacher, super,Male,Yes,Antony,IL,41
+Yes,frozens,2020-12-04,breakfast wraps,4.08,myReviews,GroceryHub,60620,chicago,FrozenBreakfast,3,5fcce2944403e64b548d8c79,Antony, nice one,Male,Yes,Antony,IL,41
+Yes,grocerys,2020-12-02,pasta,0.82,myReviews,GroceryHub,60620,Chicago,Pizzas,3,5fcce2e74403e64b548d8c7c,Software Engineer, great,Female,No,Betty,IL,28
+Yes,grocerys,2020-12-09,vinegar,2.64,myReviews,GroceryHub,60618,Chicago,Vinegar,4,5fcce30f4403e64b548d8c7f,Chicago, good one,Male,Yes,Betty,IL,28
+Yes,grocerys,2020-12-03,pizza,3.48,myReviews,GroceryHub,60619,Chicago,Pizzas,1,5fcce3644403e64b548d8c85,Software Engineer, Great,Male,Yes,Sandra,IL,25
+Yes,beverage,2020-12-02,dr pepper,7.68,myReviews,GroceryHub,60617,Chicago,SoftDrinks,5,5fcce3884403e64b548d8c88,Software Engineer, Good,Female,Yes,Sandra,IL,25
+Yes,dairies,2020-12-01,yogurt,3.47,myReviews,GroceryHub,60616,Chicago,Yogurts,3,5fcce3ad4403e64b548d8c8b,Software Engineer, Nice,Female,Yes,Sandra,IL,25
+Yes,grocerys,2020-12-02,cinnamon,0.98,myReviews,GroceryHub,60620,Chicago,Spices,1,5fcce3e44403e64b548d8c8e,Teacher, Nice one,Male,Yes,Mark,IL,28
+Yes,grocerys,2020-12-01,vinegar,2.64,myReviews,GroceryHub,60615,Chicago,Vinegar,4,5fcce40a4403e64b548d8c91,Teacher, Good one,Male,Yes,Mark,IL,28
+Yes,frozens,2020-12-02,frozen mixed vegetables,0.77,myReviews,GroceryHub,60620,Chicago,FrozenVegetables,4,5fcce43b4403e64b548d8c94,Teacher, Good,Male,Yes,Mark,IL,28
+Yes,frozens,2020-11-27,icecream,4.38,myReviews,GroceryHub,60618,Chicago,Icecream,3,5fcce4624403e64b548d8c97,Teacher, Nice,Male,Yes,Mark,IL,28
+Yes,grocerys,2020-12-04,basmati,18.52,myReviews,GroceryHub,60617,Chicago,DriedBeans,4,5fcce4c74403e64b548d8c9d,Engineer, Good one,Male,Yes,Paul,IL,32
+Yes,dairies,,vanilla pudding,2.42,myReviews,GroceryHub,60618,Chicago,Desserts,5,5fcce4f34403e64b548d8ca0,Engineer, Nice one,Male,No,Paul,IL,31
+Yes,beverage,2020-12-02,aquafina water,5.98,myReviews,GroceryHub,60619,Chicago,Water,3,5fcce51b4403e64b548d8ca3,Engineer, Great,Male,Yes,Paul,IL,31
+Yes,beverage,2020-12-02,sports drink,8.96,myReviews,GroceryHub,60620,Chicago,EnergyDrinks,3,5fcce54f4403e64b548d8ca9,Engineer, Nice,Male,Yes,Paul,IL,31

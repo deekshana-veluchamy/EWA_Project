@@ -1,0 +1,90 @@
+ProductType,ProductId,productName,productPrice,productImage,productManufacturer,productDiscount,quantity,manufacturerRebate
+beverages,aquafina water,"Aquafina Purified Water, 16.9 fl oz Bottles, 32 Count",5.98,aquawater.jpeg,Water,5.0,100.0,
+FruitsVeggies,avocado,Avocado,0.38,avocado.jpg,TropicalFruits,2.0,100.0,
+Grocerys,basmati,"Royal Basmati Rice, 20 Pound Bag",18.52,basmati.jpeg,DriedBeans,5.0,100.0,
+FruitsVeggies,betroot,BeetRoot,1.94,betroot.jpeg,RootVegetables,2.0,100.0,
+Grocerys,blackbeans,"Great Value Black Eyed Peas, 16 oz",1.48,beans.jpeg,DriedBeans,5.0,96.0,
+FruitsVeggies,blueberries,Fresh Blueberries,2.78,blueberries.jpg,Berries,2.0,100.0,Yes
+dairies,bread,"Marketside Sliced Brioche, 17.6 oz",3.54,bread.jpeg,Buns,5.0,95.0,Yes
+frozens,breakfast bowl,"Jimmy Dean Meat Lovers Breakfast Bowl, 7 oz.",2.64,breakfastbowl.jpeg,FrozenBreakfast,5.0,100.0,
+Grocerys,breakfast cereal,"Salty, 7.4 oz",2.96,bars.jpeg,BreakfastFoods,5.0,100.0,
+frozens,breakfast wraps,"El Monterey Egg, Potato, Cheese Sauce, Sausage Breakfast Wraps 8 ct",4.08,breakfastwraps.jpeg,FrozenBreakfast,5.0,100.0,
+FruitsVeggies,broccoli,Broccoli,1.13,broccoli.jpeg,Cauliflower,2.0,100.0,Yes
+dairies,brown eggs,"Marketside Organic Cage Free Brown Eggs, 12 Count",3.48,brownegg.jpeg,Eggs,5.0,95.0,Yes
+FruitsVeggies,cabbage,Cabbage,1.18,cabbage.jpg,Cauliflower,2.0,96.0,
+FruitsVeggies,carrots,Carrot,2.07,carrots.jpg,RootVegetables,2.0,100.0,
+FruitsVeggies,cauliflower,Cauliflower,1.98,cauliflower.jpg,Cauliflower,2.0,100.0,Yes
+FruitsVeggies,celery,Celery,0.73,celery.png,LeafyGreens,2.0,98.0,
+Grocerys,cereal,"Cinnamon Toast Crunch, Cereal with Whole Grain",3.64,cereal.jpeg,BreakfastFoods,5.0,100.0,Yes
+dairies,chocolate cookies,"Pillsbury Ready To Bake Chocolate Chip Cookies, 24 Ct",2.5,cookie1.png,Doughs,5.0,96.0,
+dairies,chocolate milk,"Great Value 1% Chocolate Milk, Half Gallon",1.48,chochomilk.jpeg,Yogurts,5.0,94.0,
+dairies,chocolate pudding,"Hersheys Chocolate Pudding Cups, 4 ct - 15.5 oz",2.48,chocolatepudding.jpeg,Desserts,5.0,91.0,
+Grocerys,cinnamon,"Great Value Ground Cinnamon, 2.5 oz",0.98,cinnamon.jpeg,Spices,5.0,100.0,
+dairies,cinnamon rolls,"Pillsbury Cinnamon Rolls With Icing, 8 Ct, 12.4 oz",1.98,cinnamonrolls.jpeg,Doughs,5.0,100.0,Yes
+beverages,Coca-Cola,"Coca-Cola Soda Soft Drink, 12 fl oz, 24 Pack",7.48,CocaCola.jpeg,SoftDrinks,5.0,98.0,
+beverages,coffee,NESCAFE CLASICO Dark Roast Instant Coffee,4.98,coffee.jpeg,Coffee,5.0,96.0,Yes
+beverages,coffee pods,Starbucks Medium Roast K-Cup Coffee Pods,14.96,coffeepods.jpeg,Coffee,5.0,100.0,Yes
+frozens,cookie and cream ice,"Cream Ice Cream, 48 fl oz",1.97,chocoice.jpeg,Icecream,5.0,100.0,
+beverages,cranberry juice,"Great Value Cranberry Juice, 64 fl oz",1.83,cranberryjuice.jpeg,FruitsJuices,5.0,100.0,Yes
+dairies,crescent rolls,"Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack",3.48,crescent.jpeg,Doughs,5.0,94.0,Yes
+dairies,croissants,"Marketside All Butter Croissants, 4 count, 9.17 oz",3.98,croissants.jpeg,Buns,5.0,100.0,
+beverages,dr pepper,"Dr Pepper Soda, 12 Fl. Oz., 24 Count",7.68,drpepper.jpeg,SoftDrinks,5.0,100.0,Yes
+dairies,egg whites,"Great Value Cage Free 100% Liquid Egg Whites, 32 oz",4.42,eggwhites.jpeg,Eggs,5.0,100.0,
+beverages,energy drink,"Monster Original Energy Drink, 16 Fl. Oz., 10 Count",18.73,monsterdrink.png,EnergyDrinks,5.0,100.0,Yes
+frozens,frozen broccoli,"Great Value Broccoli Florets, 12 oz",1.0,frozenbroccoli.jpeg,FrozenVegetables,5.0,100.0,Yes
+frozens,frozen cheesecake,"Pepperidge Farm Frozen Coconut Layer Cake, 19.6 oz",2.98,frozencake1.jpeg,FrozenDesserts,5.0,100.0,Yes
+frozens,frozen chicken strips,"Tyson Fully Cooked Crispy Chicken Strips, 25 oz. (Frozen)",6.68,chickenstrips.jpeg,FrozenSnacks,5.0,100.0,Yes
+frozens,frozen chicken wings,"Great Value Frozen Chicken Wings with Garlic Butter Dry Rub, 22 oz",7.37,chickenwings.jpeg,FrozenSnacks,5.0,98.0,
+frozens,frozen mixed vegetables,"Great Value Mixed Vegetables, 12 oz",0.77,mixedveg.jpeg,FrozenVegetables,5.0,100.0,
+frozens,frozen onion rings,"Great Value Onion Rings, 16 oz",2.58,onionrings.jpeg,FrozenSnacks,5.0,100.0,
+frozens,frozen peas,"Great Value Sweet Peas, 12 oz",0.77,frozenpeas.jpeg,FrozenVegetables,5.0,100.0,Yes
+frozens,frozen puffs,"Poppies Mini Cream Puffs, 17.6 oz (Frozen)",3.96,frozenpuffs.jpeg,FrozenDesserts,5.0,100.0,Yes
+FruitsVeggies,garlic,Garlic,0.42,garlic.jpeg,Shallots,2.0,100.0,
+dairies,garlic bread,"Marketside Savory Garlic Knots, 10.4 oz, 8 Count",2.98,garlicbread.jpeg,Buns,5.0,100.0,
+FruitsVeggies,ginger,Ginger,1.98,ginger.jpg,Shallots,2.0,100.0,Yes
+FruitsVeggies,grapefruit,Lemons,1.13,grapefruit.jpeg,Citrus,2.0,91.0,
+FruitsVeggies,green apple,Apple-granny smith,2.78,greenapple.jpg,Pears,2.0,100.0,
+beverages,green tea,"Yogi Green Tea Kombucha Tea Bags, 16 count",3.84,greentea.png,Coffee,5.0,96.0,Yes
+frozens,icecream,Jerrys Ice Cream Half Baked 16 oz,4.38,icecream.jpeg,Icecream,5.0,100.0,Yes
+Grocerys,italian,"Great Value Italian Seasoning, 0.95 oz",0.98,italian.jpeg,Spices,5.0,100.0,
+FruitsVeggies,kiwi,Kiwi,0.38,kiwi.jpeg,TropicalFruits,2.0,100.0,Yes
+FruitsVeggies,lemons,Lemons,0.48,lemons.jpeg,Citrus,2.0,91.0,Yes
+FruitsVeggies,lettuce,Green Leaf Lettuce,1.48,lettuce.jpeg,LeafyGreens,2.0,100.0,
+beverages,lioton tea,"Lipton Tea Bags Black Tea 8 oz, 100 Count",3.48,liotontea.jpeg,Coffee,5.0,100.0,Yes
+beverages,mango juice,"Minute Maid, Premium Mango Punch, 59 Oz.",1.5,mangojuice.jpeg,FruitsJuices,5.0,100.0,Yes
+dairies,milk,"Great Value 2% Reduced-Fat Milk, 1 Gallon, 128 Fl. Oz.",2.46,milk.jpeg,Yogurts,5.0,100.0,Yes
+beverages,nestle water,"Nestle Pure Life Purified Water, 16.9 fl oz.",3.98,nestlewater.jpeg,Water,5.0,100.0,Yes
+Grocerys,oats,Quaker Instant Oatmeal,4.88,oats.jpeg,BreakfastFoods,5.0,100.0,
+Grocerys,olive oil,"Pompeian Smooth Extra Virgin Olive Oil, 16 fl oz",4.12,oliveoil.jpeg,Vinegar,5.0,100.0,
+FruitsVeggies,onion,Onion-red,0.71,onion.jpg,Shallots,2.0,98.0,
+beverages,orange juice,"Simply Orange Pulp Free Orange Juice, 52 fl oz",3.58,orangejuice.jpeg,FruitsJuices,5.0,98.0,
+FruitsVeggies,oranges,Oranges-valencia,1.46,oranges.jpeg,Citrus,2.0,100.0,Yes
+frozens,pancakes,"De Wafelbakkers Frozen Buttermilk Pancakes, 24 ct",3.68,pancakes.jpeg,FrozenBreakfast,5.0,98.0,Yes
+FruitsVeggies,papaya,Pineapple,3.19,papaya.png,TropicalFruits,2.0,97.0,Yes
+Grocerys,pasta,"Great Value Penne Pasta, 16 oz",0.82,pasta.jpeg,Pizzas,5.0,100.0,
+Grocerys,pasta sauce,"Prego Pasta Sauce, Italian Tomato Sauce",1.84,pastasauce.jpeg,Pizzas,5.0,100.0,
+FruitsVeggies,pears,Bartlett Pears,2.78,pears.jpg,Pears,2.0,100.0,
+Grocerys,pepper,"Great Value Pure Ground Black Pepper, 3 oz",2.68,pepper.jpeg,Spices,5.0,100.0,Yes
+FruitsVeggies,pineapple,Pineapple,1.98,pineapple.jpeg,TropicalFruits,2.0,97.0,
+Grocerys,pizza,Mama Marys Original Pizza Crusts 2 ct Pack,3.48,pizza.jpeg,Pizzas,5.0,98.0,
+frozens,pop bar,Bomb Pop Original Bar,2.97,pop.png,Icecream,5.0,100.0,
+FruitsVeggies,potatos,Baby Potatos,1.39,potatos.jpg,RootVegetables,2.0,100.0,Yes
+FruitsVeggies,raspberries,Fresh Raspberries,2.78,raspberries.jpg,Berries,2.0,100.0,
+FruitsVeggies,red apple,Apple-honeycrisp,1.8,redapple.jpeg,Pears,2.0,100.0,
+beverages,red bull,"(12 Cans) Red Bull Energy Drink, 8.4 fl oz",18.73,redbull.jpeg,EnergyDrinks,5.0,100.0,
+FruitsVeggies,redraddish,RedRaddish,2.39,redraddish.jpeg,RootVegetables,2.0,94.0,
+Grocerys,rice,"Great Value Long Grain Enriched Rice, 10 lbs",4.54,rice.jpeg,DriedBeans,5.0,100.0,Yes
+Grocerys,salt,"Great Value Iodized Salt, 26 oz",0.4,salt.jpeg,Spices,5.0,100.0,
+FruitsVeggies,shallots,Shallots,1.47,shallots.jpg,Shallots,2.0,100.0,
+beverages,sparkling water,"Clear American Peach Sparkling Water, 33.8 fl oz",0.57,sparkling.jpeg,Water,5.0,100.0,Yes
+beverages,sports drink,(18 Count) Gatorade Thirst Quencher Sports Drink,8.96,sportsdrink.jpeg,EnergyDrinks,5.0,98.0,Yes
+FruitsVeggies,springonion,Spring onion,2.41,springonion.jpg,LeafyGreens,2.0,100.0,
+beverages,sprite,"Sprite Lemon Lime Soda Soft Drinks, 12 fl oz, 24 Pack",7.48,sprit.jpeg,SoftDrinks,5.0,96.0,Yes
+FruitsVeggies,strawberries,Fresh Strawberries,2.88,Strawberries.jpeg,Berries,2.0,100.0,
+dairies,strawberry cheesecake,Philadelphia Strawberry Cheesecake Cups,2.98,chessecake.jpeg,Desserts,5.0,100.0,Yes
+dairies,Strawberry yogurt,"Great Value Original Strawberry Lowfat Yogurt, 6 oz, 4 count",1.24,strawyogurt.jpeg,Yogurts,5.0,100.0,Yes
+dairies,vanilla pudding,Snack Pack Chocolate and Vanilla Pudding,2.42,snackpack.jpeg,Desserts,5.0,98.0,
+Grocerys,vegetable oil,"Great Value Vegetable Oil, 1 gal",4.48,vegoil.jpeg,Vinegar,5.0,100.0,Yes
+Grocerys,vinegar,"Great Value Distilled White Vinegar, 1 gal",2.64,vinegar.jpeg,Vinegar,5.0,97.0,
+dairies,white eggs,"Great Value Large White Eggs, 12 Count",0.98,whiteegg.jpeg,Eggs,5.0,100.0,Yes
+dairies,yogurt,"Great Value Greek Plain Nonfat Yogurt, 32 oz",3.47,yogurt.jpeg,Yogurts,5.0,100.0,
