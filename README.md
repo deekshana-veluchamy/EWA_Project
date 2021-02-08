@@ -13,15 +13,12 @@ INSTRUCTIONS TO DEPLOY AND RUN THE PROJECT:
 	3. Start the MySQL database server
 		a) database used is groceryhub
 		b) tables used to store data are customer,CustomerRegistration,stores,productdetails,restaurants,transactions,favourites,customerorder
-  4. Start tomcat server after setting up the environment variables.
+	4. Start tomcat server after setting up the environment variables.
 
  	5. Open Google chrome and type url as ==> localhost/EWA_Project
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Number of lines of Code Written:
 
-JavaScript -
-Java -
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Instruction to run python script:
@@ -102,21 +99,19 @@ FEATURES IMPLEMENTED:
 	 e)Product reviews(using product review form) is stored in NoSQL database (MongoDB).
 	 f)All implementation for MySQL is placed in a class called MySQLDataStoreUtilities.java.
 	 g)All implementation  added for MongoDB shall be placed in a class called MongoDBDataStoreUtilities.java.
-   h) Added Trending feature for Top five most liked products, Top five zip-codes where maximum number of products sold, Top five most sold products regardless of the rating.
+	 h) Added Trending feature for Top five most liked products, Top five zip-codes where maximum number of products sold, Top five most sold products regardless of the rating.
 
 3. ASSIGNMENT #3 
-
-    Implemented inventory and Sales report that is accessible only to Store Manager.
-    INVENTORY REPORT:
-	  a) Generated a table of all products and how many items of every product currently available in the store using product name, price, number of item items that product available.
-	  b) Generated a Bar Chart that shows the product names and the total number of items available for every product.
-	  c) Generated a table of all products currently on sale.
-	  d) Generated a table of all products currently that have manufacturer rebates.
-
-    SALES REPORT:
-    a) Generated a table of all products sold and number of items of every product sold by listing the product name, product price, number of items sold, and total sales of every product sold.
-	  b) Generated a Bar Chart by showing the product names and the total sales for every product.
-	  c) Generated a table of total daily sales transactions by listing the dates and total sales for every day-date.
+Implemented inventory and Sales report that is accessible only to Store Manager.
+INVENTORY REPORT:
+    	a) Generated a table of all products and how many items of every product currently available in the store using product name, price, number of item items that product available.
+	b) Generated a Bar Chart that shows the product names and the total number of items available for every product.
+	c) Generated a table of all products currently on sale.
+	d) Generated a table of all products currently that have manufacturer rebates.
+SALES REPORT:
+    	a) Generated a table of all products sold and number of items of every product sold by listing the product name, product price, number of items sold, and total sales of every product sold.
+	b) Generated a Bar Chart by showing the product names and the total sales for every product.
+	c) Generated a table of total daily sales transactions by listing the dates and total sales for every day-date.
 
 4. ASSIGNMENT #4 (ALL FEATURES IMPLEMENTED)
 
