@@ -1,0 +1,249 @@
+﻿.fontdesign1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+    .fontdesign1 strong {
+        color: #22C125;
+    }
+
+.inner-addon {
+    position: relative;
+}
+
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+.right-addon .glyphicon {
+    
+    margin-top: 8px;
+}
+
+.right-addon input {
+    padding-right: 40px;
+}
+
+.nav.navbar-nav.navbar-right {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.panel-default > .panel-heading-green {
+    background: #22C125;
+    color: whitesmoke;
+}
+
+.panel-default > .panel-heading-black {
+    background: black;
+    color: whitesmoke;
+}
+
+.box1 {
+    background-color: green;
+    height: 40px;
+    
+}
+
+.box2 {
+    background-color: black;
+    margin-top: 40px;
+    height: 800px;
+    padding-left: 20px;
+}
+
+.fontdesign2 {
+    padding-top: 14px;
+    color: white;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: orange;
+    margin-left: 380px;
+    height: 80px;
+}
+
+.linedesign1 {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+
+.box4 {
+    height: 160px;
+    width: 290px;
+    background-color: #E1DFDE;
+}
+
+.box5 {
+    height: 340px;
+    width: 290px;
+    background-color: #CB4335;
+}
+
+.panel-default > .panel-heading-seagreen {
+    background: lightseagreen;
+    color: whitesmoke;
+}
+
+.box6 {
+    height: 200px;
+    width: 200px;
+    background-color: #27AE60;
+}
+.box7 {
+    height: 200px;
+    width: 200px;
+    background-color: #E1DFDE;
+}
+
+a:link {
+    /* Applies to all unvisited links */
+    text-decoration: none;
+}
+
+.table > .table-head-dark {
+    background-color: black;
+}
+
+.probrand{
+    font-size:15px;
+    font-weight:600;
+    line-height:15px;
+    text-transform:uppercase;
+    font-family:sans-serif;
+}
+.proname{
+    font-size:13px;
+    line-height:17px;
+    font-family:sans-serif;
+}
+.proprice {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight:600;
+}
+.proogprice {
+    font-size: 13px;
+    text-decoration:line-through;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:grey;
+}
+.propricediscount {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #22C125;
+}
+
+/*product view*/
+.proNameView{
+    font-size:20px;
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:600;
+    color:grey;
+}
+.proogpriceview {
+    font-size: 15px;
+    text-decoration: line-through;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+
+.propricediscountview {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #22C125;
+}
+
+.propriceview{
+    font-size:16px;
+    line-height:17px;
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.divdotline {
+    border-bottom: 1px dashed #515A5A;
+    margin-bottom:20px;
+}
+.h5size{
+    font-weight:600;
+}
+
+input[type=radio]{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.size {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #22C125;
+    font-size: 20px;
+}
+
+.size1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.rs {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.rs1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: unset;
+    text-decoration: line-through;
+}
+
+.pr {
+    color: seagreen;
+}
+
+.size2 {
+    font-size: 20px;
+    color: #22C125;
+}
+
+
+/*ZoomIn Hover Effect*/
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}

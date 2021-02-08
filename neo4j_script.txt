@@ -1,0 +1,126 @@
+// delete existing graph
+match (n) detach delete n;
+
+// verify you have no nodes/relationships in your graph
+match (n) return n;
+
+//Create Registration
+LOAD CSV WITH HEADERS FROM "file:///registration-2020-12-06.csv" as register
+WITH register
+MERGE (REG:Registration {name:register.username, password:register.password, repassword:register.repassword})
+
+//Create Customer with Zipcode
+LOAD CSV WITH HEADERS FROM "file:///customers-2020-12-06.csv" as cust
+WITH cust
+MERGE (C:Customer {name:cust.Customer_Name, loginID:cust.userName, Age:cust.Age, Occupation:cust.Occupation, Credit_Card_number:cust.Credit_Card_number})
+MERGE (A:Delivery_ZipCode {name:cust.Zipcode, Street:cust.Street,City:cust.City,State:cust.State,Zipcode:cust.Zipcode})
+CREATE (C)-[:HAS_Address]->(A)
+
+//REGISTERS
+MATCH(REG:Registration),(C:Customer)
+WHERE REG.name = C.loginID WITH REG,C
+MERGE (C)-[:REGISTERS]->(REG)
+
+//create Retailers
+LOAD CSV WITH HEADERS FROM "file:///retailers-2020-12-06.csv" as retail
+WITH retail
+CREATE (R:Retailer {name:retail.pickuploc, Store_ID:retail.Store_ID, RCity:retail.pickupcity,RState:retail.pickupstate,RZipcode:retail.pickupzip})
+
+//create customerorders
+LOAD CSV WITH HEADERS FROM "file:///customerorders-2020-12-06.csv" as custorders
+WITH custorders
+MERGE (CO:CustomerOrders {name:custorders.orderName, loginID:custorders.userName, Zipcode:custorders.zipcode, OrderId:custorders.OrderId, orderPrice:custorders.orderPrice, quantity:custorders.quantity, orderDate:custorders.orderDate, deliveryDate:custorders.deliveryDate, deliverables:custorders.deliverables})
+
+//HAS_PLACED_ORDER
+MATCH(CO:CustomerOrders),(C:Customer)
+WHERE CO.loginID = C.loginID WITH CO,C
+MERGE (C)-[:HAS_PLACED_ORDER]->(CO)
+
+//HAS_DELIVERY
+MATCH(CO:CustomerOrders),(A:Delivery_ZipCode)
+WHERE CO.Zipcode = A.Zipcode WITH CO,A
+MERGE (CO)-[:HAS_DELIVERY]->(A)
+
+//Create Products
+LOAD CSV WITH HEADERS FROM "file:///products-2020-12-06.csv" as prod
+WITH prod
+MERGE (P:Products {name:prod.productName, productPrice:prod.productPrice, productImage:prod.productImage, productDiscount:prod.productDiscount, quantity: prod.quantity, manufacturerRebate:prod.manufacturerRebate })
+MERGE (M:Manufacturer {name:prod.productManufacturer})
+MERGE (CA:Category {name:prod.ProductType})
+CREATE (M)-[:MANUFACTURES]->(P)
+CREATE (P)-[:PART_OF]->(CA)
+
+//ORDERS
+MATCH(CO:CustomerOrders),(P:Products)
+WHERE CO.name = P.name WITH CO,P
+MERGE (CO)-[:ORDERS]->(P)
+
+
+//Create transactions
+LOAD CSV WITH HEADERS FROM "file:///transactions-2020-12-06.csv" as trans
+WITH trans
+MERGE (T:Transactions {name:trans.Customer_Name, loginID:trans.loginID, Customer_Age:trans.Customer_Age, Customer_Occupation:trans.Customer_Occupation, Credit_Card_Number: trans.Credit_Card_Number, Order_ID:trans.Order_ID, Order_Date:trans.Order_Date, Expected_Delivery: trans.Expected_Delivery, Actual_Delivery:trans.Actual_Delivery, Product_ID:trans.Product_ID, Product_Name:trans.Product_Name, Category:trans.Category, Manufacturer:trans.Manufacturer, Review_Rating:trans.Review_Rating, Delivery_Tracking_ID:trans.Delivery_Tracking_ID, Delivery_Type:trans.Delivery_Type, Delivery_Zip_Code:trans.Delivery_Zip_Code, Transaction_Status:trans.Transaction_Status, Order_Returned:trans.Order_Returned, Order_Delivered:trans.Order_Delivered})
+
+//TO_BUY
+MATCH(T:Transactions),(P:Products)
+WHERE T.Product_Name = P.name WITH T,P
+MERGE (T)-[:TO_BUY]->(P)
+
+//INVOLVED_IN
+MATCH(T:Transactions),(C:Customer)
+WHERE T.name = C.name WITH T,C
+MERGE (C)-[:INVOLVED_IN]->(T)
+
+RETURN *
+
+//QUESTIONS AND SOLUTIONS
+1. Get the number of transactions that were NOT delivered on time for
+every Delivery Zip Code
+
+MATCH (C:Customer)-[:INVOLVED_IN]->(T:Transactions)
+WHERE T.Expected_Delivery <> T.Actual_Delivery
+WITH C, T
+RETURN count(*) AS Count, T.Delivery_Zip_Code AS Delivery_Zip_Code
+ORDER BY Count DESC
+
+
+2. Get the number of disputed transactions and the list of customer
+names for these disputed transactions for Delivery Zip Code
+
+MATCH (C:Customer)-[:INVOLVED_IN]->(T:Transactions)
+WHERE T.Transaction_Status = "Disputed"
+WITH C, T
+RETURN count(DISTINCT T) AS Count, T.Delivery_Zip_Code AS Delivery_Zip_Code, collect(DISTINCT C.name) AS Customer
+ORDER BY Count DESC
+
+
+3. Get the number of disputed transactions for EVERY CUSTOMER that
+has more that one disputed transaction
+
+MATCH (C:Customer)-[:INVOLVED_IN]->(T:Transactions)
+WHERE T.Transaction_Status = "Disputed"
+WITH C, count(*) AS number_of_disputed_transactions
+WHERE number_of_disputed_transactions > 0
+RETURN C.name AS Customer, number_of_disputed_transactions
+
+
+4. Get the top 3 customers that reported the maximum number of
+returned orders
+
+MATCH (C:Customer)-[:INVOLVED_IN]->(T:Transactions)
+WHERE T.Order_Returned = "Yes"
+WITH C, count(*) AS number_of_Order_Returned
+WHERE number_of_Order_Returned > 0
+WITH C, number_of_Order_Returned
+ORDER BY number_of_Order_Returned DESC LIMIT 3
+RETURN C.name AS Customer, number_of_Order_Returned
+
+
+5. Get the number of returned orders and got review rating 1 for every
+product category in every Delivery Zip Code
+
+MATCH (C:Customer)-[:INVOLVED_IN]->(T:Transactions)
+WHERE T.Order_Returned = "Yes" AND T.Review_Rating = "1"
+WITH C, T
+RETURN count(*) AS Count, T.Category AS Category, T.Delivery_Zip_Code AS Delivery_Zip_Code
+ORDER BY Count DESC

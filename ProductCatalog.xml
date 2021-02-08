@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+  <FruitsVeggiesCatalog>
+    <fv id="oranges">
+      <name>Oranges-valencia</name>
+      <price>1.46</price>
+      <image>oranges.jpeg</image>
+      <manufacturer>Citrus</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="lemons">
+      <name>Lemons</name>
+      <price>0.48</price>
+      <image>lemons.jpeg</image>
+      <manufacturer>Citrus</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="grapefruit">
+      <name>Lemons</name>
+      <price>1.13</price>
+      <image>grapefruit.jpeg</image>
+      <manufacturer>Citrus</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="red apple">
+      <name>Apple-honeycrisp</name>
+      <price>1.80</price>
+      <image>redapple.jpg</image>
+      <manufacturer>Pears</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="green apple">
+      <name>Apple-granny smith</name>
+      <price>2.78</price>
+      <image>greenapple.jpg</image>
+      <manufacturer>Pears</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="pears">
+      <name>Bartlett Pears</name>
+      <price>2.78</price>
+      <image>pears.jpeg</image>
+      <manufacturer>Pears</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="strawberries">
+      <name>Fresh Strawberries</name>
+      <price>2.88</price>
+      <image>strawberries.jpeg</image>
+      <manufacturer>Berries</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="blueberries">
+      <name>Fresh Blueberries</name>
+      <price>2.78</price>
+      <image>blueberries.jpg</image>
+      <manufacturer>Berries</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="raspberries">
+      <name>Fresh Raspberries</name>
+      <price>2.78</price>
+      <image>raspberries.jpg</image>
+      <manufacturer>Berries</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="pineapple">
+      <name>Pineapple</name>
+      <price>1.98</price>
+      <image>pineapple.jpeg</image>
+      <manufacturer>TropicalFruits</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="papaya">
+      <name>Papaya</name>
+      <price>3.19</price>
+      <image>papaya.png</image>
+      <manufacturer>TropicalFruits</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="kiwi">
+      <name>Kiwi</name>
+      <price>0.38</price>
+      <image>kiwi.jpeg</image>
+      <manufacturer>TropicalFruits</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="avocado">
+      <name>Avocado</name>
+      <price>0.38</price>
+      <image>avocados.jpg</image>
+      <manufacturer>TropicalFruits</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="garlic">
+      <name>Garlic</name>
+      <price>0.42</price>
+      <image>garlic.jpeg</image>
+      <manufacturer>Shallots</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="onion">
+      <name>Onion-red</name>
+      <price>0.71</price>
+      <image>onion.jpg</image>
+      <manufacturer>Shallots</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="shallots">
+      <name>Shallots</name>
+      <price>1.47</price>
+      <image>shallots.jpg</image>
+      <manufacturer>Shallots</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="ginger">
+      <name>Ginger</name>
+      <price>1.98</price>
+      <image>ginger.jpg</image>
+      <manufacturer>Shallots</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+
+
+    <fv id="carrots">
+      <name>Carrot</name>
+      <price>2.07</price>
+      <image>carrots.jpg</image>
+      <manufacturer>RootVegetables</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="redraddish">
+      <name>RedRaddish</name>
+      <price>2.39</price>
+      <image>redraddish.jpeg</image>
+      <manufacturer>RootVegetables</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="potatos">
+      <name>Baby Potatos</name>
+      <price>1.39</price>
+      <image>potatos.jpg</image>
+      <manufacturer>RootVegetables</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="betroot">
+      <name>BeetRoot</name>
+      <price>1.94</price>
+      <image>betroot.jpeg</image>
+      <manufacturer>RootVegetables</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="springonion">
+      <name>Spring onion</name>
+      <price>2.41</price>
+      <image>springonion.jpg</image>
+      <manufacturer>LeafyGreens</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="lettuce">
+      <name>Green Leaf Lettuce</name>
+      <price>1.48</price>
+      <image>lettuce.jpeg</image>
+      <manufacturer>LeafyGreens</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+    <fv id="celery">
+      <name>Celery</name>
+      <price>0.73</price>
+      <image>celery.png</image>
+      <manufacturer>LeafyGreens</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+    <fv id="broccoli">
+      <name>Broccoli</name>
+      <price>1.13</price>
+      <image>broccoli.jpeg</image>
+      <manufacturer>Cauliflower</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="cauliflower">
+      <name>Cauliflower</name>
+      <price>1.98</price>
+      <image>cauliflower.jpg</image>
+      <manufacturer>Cauliflower</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </fv>
+    <fv id="cabbage">
+      <name>Cabbage</name>
+      <price>1.18</price>
+      <image>cabbage.jpg</image>
+      <manufacturer>Cauliflower</manufacturer>
+      <discount>2.0</discount>
+      <quantity>100</quantity>
+    </fv>
+
+  </FruitsVeggiesCatalog>
+  <GroceryCatalog>
+    <grocery id="salt">
+      <name>Great Value Iodized Salt, 26 oz</name>
+      <price>0.40</price>
+      <image>salt.jpeg</image>
+      <manufacturer>Spices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="pepper">
+      <name>Great Value Pure Ground Black Pepper, 3 oz</name>
+      <price>2.68</price>
+      <image>pepper.jpeg</image>
+      <manufacturer>Spices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </grocery>
+    <grocery id="cinnamon">
+      <name>Great Value Ground Cinnamon, 2.5 oz</name>
+      <price>0.98</price>
+      <image>cinnamon.jpeg</image>
+      <manufacturer>Spices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="italian">
+      <name>Great Value Italian Seasoning, 0.95 oz</name>
+      <price>0.98</price>
+      <image>italian.jpeg</image>
+      <manufacturer>Spices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+
+    <grocery id="basmati">
+      <name>Royal Basmati Rice, 20 Pound Bag</name>
+      <price>18.52</price>
+      <image>basmati.jpeg</image>
+      <manufacturer>DriedBeans</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="rice">
+      <name>Great Value Long Grain Enriched Rice, 10 lbs</name>
+      <price>4.54</price>
+      <image>rice.jpeg</image>
+      <manufacturer>DriedBeans</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </grocery>
+    <grocery id="blackbeans">
+      <name>Great Value Black Eyed Peas, 16 oz</name>
+      <price>1.48</price>
+      <image>beans.jpeg</image>
+      <manufacturer>DriedBeans</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+
+    <grocery id="pasta">
+      <name>Great Value Penne Pasta, 16 oz</name>
+      <price>0.82</price>
+      <image>pasta.jpeg</image>
+      <manufacturer>Pastas&amp;Pizzas</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="pasta sauce">
+      <name>Prego Pasta Sauce, Italian Tomato Sauce</name>
+      <price>1.84</price>
+      <image>pastasauce.jpeg</image>
+      <manufacturer>Pastas&amp;Pizzas</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="pizza">
+      <name>Mama Marys Original Pizza Crusts 2 ct Pack</name>
+      <price>3.48</price>
+      <image>pizza.jpeg</image>
+      <manufacturer>Pastas&amp;Pizzas</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+
+    <grocery id="vegetable oil">
+      <name>Great Value Vegetable Oil, 1 gal</name>
+      <price>4.48</price>
+      <image>vegoil.jpeg</image>
+      <manufacturer>Oils&amp;Vinegar</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </grocery>
+    <grocery id="olive oil">
+      <name>Pompeian Smooth Extra Virgin Olive Oil, 16 fl oz</name>
+      <price>4.12</price>
+      <image>oliveoil.jpeg</image>
+      <manufacturer>Oils&amp;Vinegar</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="vinegar">
+      <name>Great Value Distilled White Vinegar, 1 gal</name>
+      <price>2.64</price>
+      <image>vinegar.jpeg</image>
+      <manufacturer>Oils&amp;Vinegar</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+
+    <grocery id="cereal">
+      <name>Cinnamon Toast Crunch, Cereal with Whole Grain</name>
+      <price>3.64</price>
+      <image>cereal.jpeg</image>
+      <manufacturer>Cereals&amp;BreakfastFoods</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </grocery>
+    <grocery id="oats">
+      <name>Quaker Instant Oatmeal</name>
+      <price>4.88</price>
+      <image>oats.jpeg</image>
+      <manufacturer>Cereals&amp;BreakfastFoods</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+    <grocery id="breakfast cereal">
+      <name>Nature Valley Granola Bars Sweet&amp;Salty, 7.4 oz</name>
+      <price>2.96</price>
+      <image>bars.jpeg</image>
+      <manufacturer>Cereals&amp;BreakfastFoods</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </grocery>
+  </GroceryCatalog>
+
+  <DairyCatalog>
+    <dairy id="milk">
+      <name>Great Value 2% Reduced-Fat Milk, 1 Gallon, 128 Fl. Oz.</name>
+      <price>2.46</price>
+      <image>milk.jpeg</image>
+      <manufacturer>Milk&amp;Yogurts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="chocolate milk">
+      <name>Great Value 1% Chocolate Milk, Half Gallon</name>
+      <price>1.48</price>
+      <image>chochomilk.jpeg</image>
+      <manufacturer>Milk&amp;Yogurts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+    <dairy id="yogurt">
+      <name>Great Value Greek Plain Nonfat Yogurt, 32 oz</name>
+      <price>3.47</price>
+      <image>yogurt.jpeg</image>
+      <manufacturer>Milk&amp;Yogurts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+    <dairy id="Strawberry yogurt">
+      <name>Great Value Original Strawberry Lowfat Yogurt, 6 oz, 4 count</name>
+      <price>1.24</price>
+      <image>strawyogurt.jpeg</image>
+      <manufacturer>Milk&amp;Yogurts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+
+    <dairy id="white eggs">
+      <name>Great Value Large White Eggs, 12 Count</name>
+      <price>0.98</price>
+      <image>whiteegg.jpeg</image>
+      <manufacturer>Eggs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="brown eggs">
+      <name>Marketside Organic Cage Free Brown Eggs, 12 Count</name>
+      <price>3.48</price>
+      <image>brownegg.jpeg</image>
+      <manufacturer>Eggs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="egg whites">
+      <name>Great Value Cage Free 100% Liquid Egg Whites, 32 oz</name>
+      <price>4.42</price>
+      <image>eggwhites.jpeg</image>
+      <manufacturer>Eggs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+
+    <dairy id="chocolate cookies">
+      <name>Pillsbury Ready To Bake Chocolate Chip Cookies, 24 Ct</name>
+      <price>2.50</price>
+      <image>cookie1.png</image>
+      <manufacturer>Cookies&amp;Doughs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+    <dairy id="cinnamon rolls">
+      <name>Pillsbury Cinnamon Rolls With Icing, 8 Ct, 12.4 oz</name>
+      <price>1.98</price>
+      <image>cinnamonrolls.jpeg</image>
+      <manufacturer>Cookies&amp;Doughs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="crescent rolls">
+      <name>Pillsbury Crescent Rolls Original, 16 ct, 16 oz, 2 pack</name>
+      <price>3.48</price>
+      <image>crescent.jpeg</image>
+      <manufacturer>Cookies&amp;Doughs</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+
+    <dairy id="chocolate pudding">
+      <name>Hersheys Chocolate Pudding Cups, 4 ct - 15.5 oz</name>
+      <price>2.48</price>
+      <image>chocolatepudding.jpeg</image>
+      <manufacturer>Puddings&amp;Desserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+    <dairy id="strawberry cheesecake">
+      <name>Philadelphia Strawberry Cheesecake Cups</name>
+      <price>2.98</price>
+      <image>cheesecake.jpeg</image>
+      <manufacturer>Puddings&amp;Desserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="vanilla pudding">
+      <name>Snack Pack Chocolate and Vanilla Pudding</name>
+      <price>2.42</price>
+      <image>snackpack.jpeg</image>
+      <manufacturer>Puddings&amp;Desserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+
+    <dairy id="croissants">
+      <name>Marketside All Butter Croissants, 4 count, 9.17 oz</name>
+      <price>3.98</price>
+      <image>croissants.jpeg</image>
+      <manufacturer>Breads&amp;Buns</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+    <dairy id="bread">
+      <name>Marketside Sliced Brioche, 17.6 oz</name>
+      <price>3.54</price>
+      <image>bread.jpeg</image>
+      <manufacturer>Breads&amp;Buns</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </dairy>
+    <dairy id="garlic bread">
+      <name>Marketside Savory Garlic Knots, 10.4 oz, 8 Count</name>
+      <price>2.98</price>
+      <image>garlicbread.jpeg</image>
+      <manufacturer>Breads&amp;Buns</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </dairy>
+  </DairyCatalog>
+
+  <BeveragesCatalog>
+    <beverages id="lioton tea">
+      <name>Lipton Tea Bags Black Tea 8 oz, 100 Count</name>
+      <price>3.48</price>
+      <image>liptontea.jpeg</image>
+      <manufacturer>Tea&amp;Coffee</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="green tea">
+      <name>Yogi Green Tea Kombucha Tea Bags, 16 count</name>
+      <price>3.84</price>
+      <image>greentea.png</image>
+      <manufacturer>Tea&amp;Coffee</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="coffee">
+      <name>NESCAFE CLASICO Dark Roast Instant Coffee</name>
+      <price>4.98</price>
+      <image>coffee.jpeg</image>
+      <manufacturer>Tea&amp;Coffee</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="coffee pods">
+      <name>Starbucks Medium Roast K-Cup Coffee Pods</name>
+      <price>14.96</price>
+      <image>coffeepods.jpeg</image>
+      <manufacturer>Tea&amp;Coffee</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+
+    <beverages id="orange juice">
+      <name>Simply Orange Pulp Free Orange Juice, 52 fl oz</name>
+      <price>3.58</price>
+      <image>orangejuice.jpeg</image>
+      <manufacturer>FruitsJuices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </beverages>
+    <beverages id="cranberry juice">
+      <name>Great Value Cranberry Juice, 64 fl oz</name>
+      <price>1.83</price>
+      <image>cranberryjuice.jpeg</image>
+      <manufacturer>FruitsJuices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="mango juice">
+      <name>Minute Maid, Premium Mango Punch, 59 Oz.</name>
+      <price>1.50</price>
+      <image>mangojuice.jpeg</image>
+      <manufacturer>FruitsJuices</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+
+    <beverages id="Coca-Cola">
+      <name>Coca-Cola Soda Soft Drink, 12 fl oz, 24 Pack</name>
+      <price>7.48</price>
+      <image>CocaCola.jpeg</image>
+      <manufacturer>SoftDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </beverages>
+    <beverages id="dr pepper">
+      <name>Dr Pepper Soda, 12 Fl. Oz., 24 Count</name>
+      <price>7.68</price>
+      <image>drpepper.jpeg</image>
+      <manufacturer>SoftDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="sprite">
+      <name>Sprite Lemon Lime Soda Soft Drinks, 12 fl oz, 24 Pack</name>
+      <price>7.48</price>
+      <image>sprit.jpeg</image>
+      <manufacturer>SoftDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+
+    <beverages id="nestle water">
+      <name>Nestle Pure Life Purified Water, 16.9 fl oz.</name>
+      <price>3.98</price>
+      <image>nestlewater.jpeg</image>
+      <manufacturer>Water</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="aquafina water">
+      <name>Aquafina Purified Water, 16.9 fl oz Bottles, 32 Count</name>
+      <price>5.98</price>
+      <image>aquawater.jpeg</image>
+      <manufacturer>Water</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </beverages>
+    <beverages id="sparkling water">
+      <name>Clear American Peach Sparkling Water, 33.8 fl oz</name>
+      <price>0.57</price>
+      <image>sparkling.jpeg</image>
+      <manufacturer>Water</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+
+    <beverages id="red bull">
+      <name>(12 Cans) Red Bull Energy Drink, 8.4 fl oz</name>
+      <price>18.73</price>
+      <image>redbull.jpeg</image>
+      <manufacturer>EnergyDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </beverages>
+    <beverages id="sports drink">
+      <name>(18 Count) Gatorade Thirst Quencher Sports Drink</name>
+      <price>8.96</price>
+      <image>sportsdrink.jpeg</image>
+      <manufacturer>EnergyDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+    <beverages id="energy drink">
+      <name>Monster Original Energy Drink, 16 Fl. Oz., 10 Count</name>
+      <price>18.73</price>
+      <image>monsterdrink.png</image>
+      <manufacturer>EnergyDrinks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </beverages>
+  </BeveragesCatalog>
+
+  <FrozenCatalog>
+    <frozen id="cookie and cream ice">
+      <name>Great Value Cookies&amp;Cream Ice Cream, 48 fl oz</name>
+      <price>1.97</price>
+      <image>chocoice.jpeg</image>
+      <manufacturer>Icecream</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="pop bar">
+      <name>Bomb Pop Original Bar</name>
+      <price>2.97</price>
+      <image>pop.png</image>
+      <manufacturer>Icecream</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="icecream">
+      <name>Ben&amp;Jerrys Ice Cream Half Baked 16 oz</name>
+      <price>4.38</price>
+      <image>icecream.jpeg</image>
+      <manufacturer>Icecream</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+
+    <frozen id="breakfast bowl">
+      <name>Jimmy Dean Meat Lovers Breakfast Bowl, 7 oz.</name>
+      <price>2.64</price>
+      <image>breakfastbowl.jpeg</image>
+      <manufacturer>FrozenBreakfast</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="pancakes">
+      <name>De Wafelbakkers Frozen Buttermilk Pancakes, 24 ct</name>
+      <price>3.68</price>
+      <image>pancakes.jpeg</image>
+      <manufacturer>FrozenBreakfast</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+    <frozen id="breakfast wraps">
+      <name>El Monterey Egg, Potato, Cheese Sauce, Sausage Breakfast Wraps 8 ct</name>
+      <price>4.08</price>
+      <image>breakfastwraps.jpeg</image>
+      <manufacturer>FrozenBreakfast</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+
+    <frozen id="frozen broccoli">
+      <name>Great Value Broccoli Florets, 12 oz</name>
+      <price>1.00</price>
+      <image>frozenbroccoli.jpeg</image>
+      <manufacturer>FrozenVegetables</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+    <frozen id="frozen mixed vegetables">
+      <name>Great Value Mixed Vegetables, 12 oz</name>
+      <price>0.77</price>
+      <image>mixedveg.jpeg</image>
+      <manufacturer>FrozenVegetables</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="frozen peas">
+      <name>Great Value Sweet Peas, 12 oz</name>
+      <price>0.77</price>
+      <image>frozenpeas.jpeg</image>
+      <manufacturer>FrozenVegetables</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+
+    <frozen id="frozen onion rings">
+      <name>Great Value Onion Rings, 16 oz</name>
+      <price>2.58</price>
+      <image>onionrings.jpeg</image>
+      <manufacturer>FrozenSnacks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="frozen chicken wings">
+      <name>Great Value Frozen Chicken Wings with Garlic Butter Dry Rub, 22 oz</name>
+      <price>7.37</price>
+      <image>chickenwings.jpeg</image>
+      <manufacturer>FrozenSnacks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="frozen chicken strips">
+      <name>Tyson Fully Cooked Crispy Chicken Strips, 25 oz. (Frozen)</name>
+      <price>6.68</price>
+      <image>chickenstrips.jpeg</image>
+      <manufacturer>FrozenSnacks</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+
+    <frozen id="frozen cheesecake">
+      <name>The Cheesecake Factory At Home (Frozen)</name>
+      <price>15.98</price>
+      <image>frozencake.jpeg</image>
+      <manufacturer>FrozenDesserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+    </frozen>
+    <frozen id="frozen puffs">
+      <name>Poppies Mini Cream Puffs, 17.6 oz (Frozen)</name>
+      <price>3.96</price>
+      <image>frozenpuffs.jpeg</image>
+      <manufacturer>FrozenDesserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+    <frozen id="frozen cheesecake">
+      <name>Pepperidge Farm Frozen Coconut Layer Cake, 19.6 oz</name>
+      <price>2.98</price>
+      <image>frozencake1.jpeg</image>
+      <manufacturer>FrozenDesserts</manufacturer>
+      <discount>5.0</discount>
+      <quantity>100</quantity>
+      <manufacturerRebate>Yes</manufacturerRebate>
+    </frozen>
+  </FrozenCatalog>
+</ProductCatalog>

@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>GroceryHub</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="custom.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Links for Jquery and bootstrap css -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPfwSalKUr8H7dD3tjF2iGvUb3JkDBYVg&callback=initMap&libraries=&v=weekly"
+    ></script>
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 450px;
+          /* The height is 400 pixels */
+          width: 100%;
+          /* The width is the width of the web page */
+        }
+      </style>
+	<script type="text/javascript">
+        var locations = [
+          ['Whole Foods Market', 41.88225265133876, -87.64698206633221,1],
+          ['Trader Joes', 41.932633080465735, -87.64622168657354, 2],
+          ['Walmart Neighborhood Market', 41.81877236193463, -87.61045397061662, 3],
+          ['Petes Fresh Market', 41.89020389944517, -87.68529863054, 4],
+          ['Marianos', 41.86805005582697, -87.62899401186301, 5],
+          ['Patel Brothers', 42.00834221919611, -87.6942256356602, 6],
+          ['Food 4 Less', 41.75330103262017, -87.63041795061554, 7],
+          ['Park To Shop Supermarket', 41.84872954734438, -87.64105996997304, 8],
+          ['Fresh Thyme Farmers Market', 41.93061967935665, -87.68160576944307, 9],
+          ['Fresh Market Place', 41.92297057505841, -87.68781280856868, 10],
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: new google.maps.LatLng(41.88009191611478, -87.62762328700367),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+        }
+      </script>
+  <script>
+  <!-- jqurey script -->
+  $(document).ready(function(){
+
+  	$('#myCarousel').carousel({
+    interval: 3000
+  })
+
+  $('.carousel .item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+  });
+  });
+  </script>
+  <script type="text/javascript" src="javascript.js"></script>
+  <style>
+  * {
+  		box-sizing : unset;
+  	}
+
+  .col-md-6{
+  		width : 45% ! important;
+  	}
+  </style>
+
+
+
+</head>
+<body onload="init()" style='margin: 0px !important; padding: 0 !important; !important;	font-family: Georgia, "Times New Roman", Times, serif;	font-size: 12px !important;	'>
+	<div>
+
+	 <!----Navbar Starts------->
+
+		   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: black; height:77px;">
+                <div class="container-fluid">
+                    <div class="navbar-header" style="margin-left:40px;">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="HomePage.aspx">
+                            <p style="color: whitesmoke;text-transform: uppercase;  font-size: 30px;  font-family: Arial;">Gro<strong style="color:#22C125;">Cery</strong> &nbsp;Hub</p>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse " style="margin-right:40px; margin-top:22px;">
+                        <ul class="nav navbar-nav navbar-right" style="font-size:15px";>
+                            <li>
+                                <div class="inner-addon right-addon form-group" style="padding-top: 10px;">
+
+                                    <div name="autofillform">
+                              				<input type="text" name="searchId" value="" class="input"
+                              					id="searchId" onkeyup="doCompletion()"
+                              					placeholder="search Grocery.." style="padding: 5px; font-size: 16px;" />
+                              				<div id="auto-row">
+                              					<table id="complete-table" class="gridtable"
+                              						style="position: absolute; width: 315px;"></table>
+                              				</div>
+                              			</div>
+                                </div>
+                            </li>
+
+                            <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Grocery<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="GroceryList?maker=herbsspices">Herbs & Spices</a></li>
+                                    <li><a href="GroceryList?maker=rgd">Rice,Grains & DriedBeans</a></li>
+                                    <li><a href="GroceryList?maker=pastaspizzas">Pastas & Pizzas</a></li>
+                                    <li><a href="GroceryList?maker=oilvinegar">Oils & Vinegar</a></li>
+                                    <li><a href="GroceryList?maker=cereals">Cereals & BreakfastFoods</a></li>
+
+                                </ul>
+                            </li>
+                           <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fruits & Veggies<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="FruitsVeggiesList?maker=ap">Apples & Pears</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=citrus">Citrus</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=berries">Berries</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=tropicalfruits">TropicalFruits</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=gs">Garlic & Shallots</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=rootvegetables">RootVegetables</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=leafygreens">LeafyGreens</a></li>
+                                    <li><a href="FruitsVeggiesList?maker=cc">Cabbage & Cauliflower</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dairy<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="DairyList?maker=milkyogurt">Milk & Yogurts</a></li>
+                                    <li><a href="DairyList?maker=eggs">Eggs</a></li>
+                                    <li><a href="DairyList?maker=cookiesdoughs">Cookies & Doughs</a></li>
+                                    <li><a href="DairyList?maker=desserts">Puddings & Desserts</a></li>
+                                     <li><a href="DairyList?maker=breads">Breads & Buns</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Beverages<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="BeveragesList?maker=teacoffee">Tea & Coffee</a></li>
+                                    <li><a href="BeveragesList?maker=fruitjuice">FruitsJuices</a></li>
+                                    <li><a href="BeveragesList?maker=softdrinks">SoftDrinks</a></li>
+                                    <li><a href="BeveragesList?maker=water">Water</a></li>
+                                     <li><a href="BeveragesList?maker=energydrinks">EnergyDrinks</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Frozen<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="FrozenList?maker=icecream">Icecream</a></li>
+                                    <li><a href="FrozenList?maker=frozenbreakfast">FrozenBreakfast</a></li>
+                                    <li><a href="FrozenList?maker=frozenvegetables">FrozenVegetables</a></li>
+                                    <li><a href="FrozenList?maker=frozensnacks">FrozenSnacks</a></li>
+                                     <li><a href="FrozenList?maker=frozendesserts">FrozenDesserts</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <button class="btn btn-primary" id="btncart" action='CustomerSignIn'  type="button" style="margin-top:13px; margin-left:5px; border:none; background-color:#009900;" >
+                                   <a href='CustomerSignIn' style="color:white;"> Customer </a>
+                                </button>
+                            </li>
+
+
+                            <li>
+								<button class="btn btn-primary" id="btncart" action='CustomerSignIn' type="button" style="margin-top:13px; margin-left:5px; border:none; background-color:white; color:black;" >
+                                    <a href='RetailerSignIn' style="color:black;">Retailer</a>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="btn btn-primary" id="btncart" type="button" style="margin-top:13px; margin-left:5px; border:none; background-color:crimson;" >
+                                    <a href='Cart' style="color:white;"> Cart </a>
+                                </button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id='map'></div>
+            </div>
+	</div>
+
+            <!------------navbar ends------------>

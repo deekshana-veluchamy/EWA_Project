@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>GroceryHub</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="custom.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Links for Jquery and bootstrap css -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPfwSalKUr8H7dD3tjF2iGvUb3JkDBYVg&callback=initMap&libraries=&v=weekly"
+    ></script>
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 450px;
+          /* The height is 400 pixels */
+          width: 100%;
+          /* The width is the width of the web page */
+        }
+      </style>
+	<script type="text/javascript">
+        var locations = [
+          ['Whole Foods Market', 41.88225265133876, -87.64698206633221,1],
+          ['Trader Joes', 41.932633080465735, -87.64622168657354, 2],
+          ['Walmart Neighborhood Market', 41.81877236193463, -87.61045397061662, 3],
+          ['Petes Fresh Market', 41.89020389944517, -87.68529863054, 4],
+          ['Marianos', 41.86805005582697, -87.62899401186301, 5],
+          ['Patel Brothers', 42.00834221919611, -87.6942256356602, 6],
+          ['Food 4 Less', 41.75330103262017, -87.63041795061554, 7],
+          ['Park To Shop Supermarket', 41.84872954734438, -87.64105996997304, 8],
+          ['Fresh Thyme Farmers Market', 41.93061967935665, -87.68160576944307, 9],
+          ['Fresh Market Place', 41.92297057505841, -87.68781280856868, 10],
+        ];
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: new google.maps.LatLng(41.88009191611478, -87.62762328700367),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+        }
+      </script>
+
+</head>
+<body>
+	<div>
+
+	 <!----Navbar Starts------->
+
+		   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: black; height:77px;">
+                <div class="container-fluid">
+                    <div class="navbar-header" style="margin-left:40px;">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="MyStore">
+                            <p style="color: whitesmoke;text-transform: uppercase;  font-size: 30px;  font-family: Arial;">Gro<strong style="color:#22C125;">Cery</strong> &nbsp;Hub</p>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse " style="margin-right:80px; margin-top:22px;">
+                        <ul class="nav navbar-nav navbar-right" style="font-size:15px";>
+
+
+                            <li class="dropdown show">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Manage Store<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="UpdateProduct">Update Product</a></li>
+                                    <li><a href="DeleteProduct">Delete Product</a></li>
+                                    <li><a href="RetailerHome">Reports</a></li>
+                                    <li><a href="CustomerSignUp">Create customer account</a></li>
+                                </ul>
+                            </li>
+
+
+
+
+
+
+
+
+
+                            <li>
+								<button class="btn btn-primary" id="btncart" action='RetailerSignIn' type="button" style="margin-top:13px; margin-left:5px; border:none; background-color:white; color:red;" >
+                                    <a href='RetailerSignIn' style="color:black;">LogOut</a>
+                                </button>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+            <!------------navbar ends------------>
